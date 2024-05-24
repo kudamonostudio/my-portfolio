@@ -1,0 +1,48 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@font-face {
+  font-family: "Relieve";
+  src: local("Relieve"),
+    url("./assets/fonts/Relieve.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PP-Pangaia";
+  src: local("PP-Pangaia"),
+    url("./assets/fonts/PPPangaia-Medium-BF654c530cc86d5.otf") format("opentype");
+  font-weight: normal;
+}
+
+:root {
+  background-color: #181818;
+  background-image: url("https://www.transparenttextures.com/patterns/classy-fabric.png");
+  --white: #ebebeb;
+  height: 120vh;
+}
+
+p, h1, h2, h3 {
+  color: var(--white);
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.text {
+	animation: textRotation 12s linear infinite;
+}
+
+@keyframes textRotation {
+	0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+
