@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function MainMenu() {
-  const menu = ["About me", "Projects", "Experience", "More"];
+  const menu = ["About me", "Experience", "Projects", "More"];
   const phrase = [
     ["Designing and ", "developing"],
     ["inspiring digital ", "experiences"],
