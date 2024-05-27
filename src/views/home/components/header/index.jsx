@@ -1,15 +1,13 @@
-import React from 'react'
-import MainMenu from '../../../../components/mainMenu'
-import HeaderMainImage from './headerMainImage';
+import MainMenu from "../../../../components/mainMenu";
+import HeaderMainImage from "./headerMainImage";
 
 function Header() {
-    
   return (
-    <div className='flex h-full max-h-[910px] mt-10 fixed w-screen max-w-[80rem]'> {/* this would be sticky after menu appears */}
-            <MainMenu />
-            <HeaderMainImage />
+    <div className="flex items-center h-[100vh] w-screen max-w-[900px] left-0 right-0 sticky top-0">
+      <MainMenu />
+      <HeaderMainImage />
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
