@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InitialText from "../../components/initialText";
 import Header from "./components/header";
+import About from "./components/about";
 
 function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -9,10 +10,8 @@ function Home() {
       <InitialText setShowContent={setShowContent} />
       {showContent && (
         <>
-          <div className="w-full max-w-[900px] flex flex-col ml-auto mr-auto z-10 relative h-[300vh]">
-            <Header />
-          </div>
-          <div className="bg-red-600 h-[300vh]"></div>
+          <Header />
+          <About />
         </>
       )}
     </div>
