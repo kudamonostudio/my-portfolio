@@ -36,10 +36,11 @@ function About() {
         <div className="h-[100vh] flex items-center">
           <div className="w-[510px] gap-1 flex flex-wrap">
             <AboutImage yValue={-1414} hoverImg={hoverImgs[0]} />
-            <div className="w-[250px] h-[43vh] p-8 flex justify-center items-center">
+            <div className="w-[250px] flex justify-center items-center h-[285px]">
               <img
                 src="https://images.pexels.com/photos/7476881/pexels-photo-7476881.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                 alt="About me image"
+                className="h-[230px]"
               />
             </div>
             <AboutImage yValue={-1124} hoverImg={hoverImgs[1]} />
