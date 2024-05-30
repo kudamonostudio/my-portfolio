@@ -3,6 +3,7 @@ import InitialText from "../../components/initialText";
 import Header from "./components/header";
 import About from "./components/about";
 import Experience from "./components/experience";
+import Projects from "./components/projects";
 
 function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -14,6 +15,7 @@ function Home() {
           <Header />
           <About />
           <Experience />
+          <Projects />
         </>
       )}
     </div>
